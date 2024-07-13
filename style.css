@@ -259,10 +259,13 @@ footer > p{
     header h1{
         line-height: 37px;
         margin-top: 23px;
-        font-size: 5em;
+        font-size: 4em;
     }
     header h1 span{
         display: block;
+    }
+    nav{
+        justify-content: center;
     }
     nav a{
         line-height: 35px;
