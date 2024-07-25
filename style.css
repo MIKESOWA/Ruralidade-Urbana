@@ -208,6 +208,9 @@ aside h1{
     margin-left: 10px;
     color:white;
 }
+ol{
+    list-style-position: inside;
+}
 .lista li{
     min-height:40px ;
     padding-top: 10px;
@@ -255,17 +258,26 @@ footer > p{
     text-align: center;
     margin-bottom: 7px;
     font-size: 2em;
+    font-weight: bold;
 }
 .text-info h1{
     font-size:2.3em;
     color: var(--cor01);
     text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.text-info h4{
+    font-size: 1.7em;
+    color: var(--cor01);
+    font-weight: normal;
 }
 .text-info h3{
     font-size:1.8em;
     color: var(--cor01);
     text-indent: 20px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 .text-info strong{
     color: var(--cor04);
