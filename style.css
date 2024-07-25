@@ -16,7 +16,7 @@
     --cor01:#4d9444;
     --cor02:rgb(93, 184, 93);
     --cor03:#257c19;
-    --cor04:#040029;
+    --cor04:#023306;
     --cor05:rgb(139, 214, 139);
     --cor06:#226312;
     --cor07:#439914;
@@ -122,6 +122,7 @@ p{
     margin-right: 10%;
     padding-top:10px ;
     padding-bottom:10px;
+    text-align: center;
 }
 .textimg{
     padding-top:10px ;
@@ -131,6 +132,7 @@ p{
     flex-wrap: nowrap;
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
 }
 .text{
     max-width: 400px ;
@@ -162,6 +164,9 @@ img{
     color: white;
     transition: 0.5s;
     border:solid var(--cor06)  ;
+}
+.areas a {
+    text-decoration: none;
 }
 .areas h3{
     color: var(--cor07);
@@ -222,14 +227,25 @@ footer > p{
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.411);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#modelo-informativo-body{
+    background-color: rgb(228, 225, 225);
+}
+#modelo-informativo-body article{
+    background-color: white;
 }
 .modelo-informativo-main{
-    background-color: white;
+    background-color: rgb(228, 225, 225);
 }
 .modelo-informativo-main p {
     color:  black;
     font-weight: normal;
     text-align:start;
+}
+.imgtext p{
+    text-align: center;
 }
 .text-info{
     padding: 15px;
@@ -238,26 +254,34 @@ footer > p{
     color: var(--cor01);
     text-align: center;
     margin-bottom: 7px;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 .text-info h1{
-    font-size:2em;
+    font-size:2.3em;
     color: var(--cor01);
     text-align: center;
 }
 .text-info h3{
-    font-size:1.5em;
+    font-size:1.8em;
     color: var(--cor01);
     text-indent: 20px;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
-
+.text-info strong{
+    color: var(--cor04);
+}
 .text-info p {
-    margin-bottom: 7px;
+    color: rgb(33, 37, 41);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
 }
 .img-info{
     display: block;
     margin: auto;
+    margin-bottom: 20px;
 }
 .modelo-informativo-main a {
     color: #1605a8;
@@ -265,12 +289,18 @@ footer > p{
 }
 .list-info{
     list-style-position: inside;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 1.2em;
 }
 .list-info li{
     min-height: 30px;
     font-weight: normal;
+    color: rgb(33, 37, 41);
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
 }
 @media (max-width:768px){
     header h1{
