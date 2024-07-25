@@ -81,7 +81,12 @@ nav a:hover, nav span:hover{
 .dropdown-menu a{
     display: block;
     color: white;
-    background-color: #257c19af;
+    background-color: #257c19;
+    transition: all 0.4s;
+}
+.dropdown-menu a:hover {
+    background-color:rgb(236, 235, 235);
+    color: var(--cor03);
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -115,11 +120,11 @@ p{
     font-family: var(--fonte1);
 }
 .imgtext{
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    margin-left: 10%;
-    margin-right: 10%;
     padding-top:10px ;
     padding-bottom:10px;
     text-align: center;
@@ -133,6 +138,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+
 }
 .text{
     max-width: 400px ;
