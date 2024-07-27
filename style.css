@@ -30,6 +30,7 @@ header {
     background-image:linear-gradient(to top left, var(--cor06) ,var(--cor07), var(--cor01)) ;
     min-height: 110px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
+    padding-top: 10px;
 }
 header h1{
     font-size: 5em;
@@ -120,31 +121,35 @@ p{
     font-family: var(--fonte1);
 }
 .imgtext{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     padding-top:10px ;
     padding-bottom:10px;
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .textimg{
     padding-top:10px ;
     padding-bottom:10px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .text{
-    max-width: 400px ;
+    max-width: 500px ;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
     color: var(--cor03);
 }
 img{
@@ -182,6 +187,9 @@ img{
 .areas:hover{
     cursor: pointer;
 }
+#ctn-areas > :not(:hover){
+    transition: 0.5s;
+}
 #ctn-areas:hover > :not(:hover){
     opacity: 80%;
     scale: 0.97;
@@ -196,23 +204,23 @@ img{
     font-family: var(--fonte1);
 }
 aside{
-    width: 90%; 
     background-color: var(--cor01);
     margin-top: 30px;
-    border-radius: 10px;
-    border:dashed rgba(0, 0, 0, 0.151);
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 aside h1{
-    color: var(--cor1);
-    text-shadow: black 1px 1px 1px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 .lista{
     font-size: 1.3em;
     list-style-position: inside;
     margin-left: 10px;
     color:white;
+    max-width: 500px;
 }
 ol{
     list-style-position: inside;
@@ -284,6 +292,7 @@ footer > p{
     text-indent: 20px;
     margin-bottom: 5px;
     font-weight: bold;
+    text-align: center;
 }
 .text-info strong{
     color: var(--cor04);
@@ -308,14 +317,13 @@ footer > p{
 .list-info{
     list-style-position: inside;
     margin-left: 5%;
-    font-size: 1.2em;
 }
 .list-info li{
     min-height: 30px;
     font-weight: normal;
     color: rgb(33, 37, 41);
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 27px;
     text-align: justify;
@@ -352,6 +360,7 @@ a{
     }
     img{
         margin: auto;
+        width: 90%;
     }
     .text{
         font-size: 1.1em;
