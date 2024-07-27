@@ -94,7 +94,7 @@ nav a:hover, nav span:hover{
 }
 p{
     text-indent: 10px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.3em;
     font-weight: bold;
 }
@@ -374,6 +374,9 @@ a{
     aside ul{
         margin-top:-20px ;
         
+    }
+    .text-info{
+        font-size: 1.1em;
     }
 }
     @media (min-width:768px) , (max-width:1024px){
