@@ -171,8 +171,9 @@ img{
     border-radius: 10px 0px 10px 0px;
     min-height: 200px;
     font-size: 1em;
+    width: 100%;  
+    min-width: 50px;
     max-width: 400px;
-    min-width: 300px;
     color: white;
     transition: 0.5s;
     border:solid var(--cor06)  ;
