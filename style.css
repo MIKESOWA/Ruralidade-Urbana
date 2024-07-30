@@ -101,7 +101,7 @@ p{
 .centro{
     text-align: center;
     color: var(--cor03);
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     padding: 40px;
 }
@@ -121,14 +121,13 @@ p{
     font-family: var(--fonte1);
 }
 .imgtext{
-    margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    padding-top:10px ;
+    padding-top:20px ;
     padding-bottom:10px;
     text-align: center;
     margin-left: 5%;
@@ -377,6 +376,9 @@ a{
     }
     .text-info{
         font-size: 1.1em;
+    }
+    .modelo-informativo{
+        max-width: 97%;
     }
 }
     @media (min-width:768px) , (max-width:1024px){
