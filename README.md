@@ -12,6 +12,6 @@
   ![Screenshot_1](https://github.com/user-attachments/assets/edbfbd6d-3294-4089-83f0-98fa158040f8)
 ### Créditos
   Site feito inteiramente por Mike André Sowa.  
-  Imagens e códigos autorais. 
+  Imagens e códigos autorais.  
   Fonte: Google Fonts.
 
