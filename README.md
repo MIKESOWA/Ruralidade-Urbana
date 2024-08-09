@@ -1,5 +1,6 @@
 # Ruralidade Urbana
   Projeto feito para o concurso agrinho 2024 na cataegoria de programação.
+  ![Screenshot_2](https://github.com/user-attachments/assets/a4c6ab38-6903-4a8d-a924-cbe608a55b6f)
 ## Acesso ao site
   Link: https://mikesowa.github.io/Ruralidade-Urbana/ .
   Tema: Do campo à cidade: colhendo oportunidade.
@@ -13,3 +14,4 @@
   Site feito inteiramente por Mike André Sowa.  
   Imagens e códigos autorais. 
   Fonte: Google Fonts.
+
