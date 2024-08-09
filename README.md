@@ -1,7 +1,7 @@
 # Ruralidade Urbana
   Projeto feito para o concurso agrinho 2024 na cataegoria de programação.
 ## Acesso ao site
-  Link: https://mikesowa.github.io/Agrinho/ .
+  Link: https://mikesowa.github.io/Ruralidade-Urbana/ .
 ### Tecnologias usadas:
   - HTML5
   - CSS
