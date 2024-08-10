@@ -12,7 +12,7 @@
     font-weight: 400;
     font-style: normal;
 }
-
+/* variaveis para paleta de cores */
 :root {
     --cor01: #4d9444;
     --cor02: rgb(93, 184, 93);
@@ -28,7 +28,7 @@
 body {
     background-color: white;
 }
-
+/* Cabeçalho */
 header {
     background-image: linear-gradient(to top left, var(--cor06), var(--cor07), var(--cor01));
     min-height: 110px;
@@ -84,7 +84,7 @@ nav span:hover {
     background-color: var(--cor03);
     color: white;
 }
-
+/* Menu com opções */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -179,7 +179,7 @@ img {
     width: 50%;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.548);
 }
-
+/* Container de áreas interativas */
 #ctn-areas {
     display: flex;
     align-items: center;
@@ -284,7 +284,7 @@ ol {
     font-weight: bold;
     text-align: start;
 }
-
+/* Roda pé */
 footer {
     background-color: black;
     height: 100px;
@@ -295,7 +295,7 @@ footer {
 footer>p {
     padding-top: 50px;
 }
-
+/* CSS para as outras páginas informativas */
 .modelo-informativo {
     max-width: 1000px;
     margin: auto;
@@ -404,7 +404,7 @@ footer>p {
 a {
     text-decoration: none;
 }
-
+/* Tornar o ite mais responsivo */
 @media (max-width:768px) {
     a {
         text-decoration: none;
